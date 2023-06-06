@@ -2,7 +2,7 @@ This repository contains a dataset consisting of 612 images of human eyes with "
 
 A cataract is a medical condition in which the lens of the eye becomes calcified and opaque. This gives the appearance of a white pupil that can be seen with the naked eye.
 
-In cataract_CNN_clf.ipynb, we train a convolutional neural network (CNN) to classify an eye image as having a cataract or not having a cataract. The models were trained using cross-validation with XXXXX split. We used kerastuner.tuners.RandomSearch() to perform the training and hyperparameter tuning. 
+In cataract_CNN_clf.ipynb, we train a convolutional neural network (CNN) to classify an eye image as having a cataract or not having a cataract. The models were trained using 1:3 train/validation split. We used kerastuner.tuners.RandomSearch() to perform the training and hyperparameter tuning. 
 
-The CNN model predicted with greater than 90% accuracy on the test set.
+The CNN model predicted with ~90% accuracy on the test set.
 
